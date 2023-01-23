@@ -21,7 +21,7 @@ Initially,it is required to install the xterm libray before running the program.
 Then, navigate to your ROS workspace 'src' folder and clone this repository using the following command:
 
 
-    	git clone https://github.com/sametkosum/RT1_assignment2)
+    	git clone https://github.com/sametkosum/RT1_assignment2
     
 When the repository has been cloned, navigate to the work space drectory and run the following command to build the package:
 
