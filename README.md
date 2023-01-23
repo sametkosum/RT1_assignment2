@@ -329,7 +329,7 @@ if __name__ == "__main__":
 
 This code is a ROS (Robot Operating System) node that implements a wall following algorithm. The robot uses laser scan data to detect the distance to walls on its left, right and front, and navigates accordingly. The node also includes a service that allows the user to start or stop the wall following behavior, and a callback function that is triggered when new laser scan data is received. The pseudocode for this code is:
 
-1)Initialize node and publisher for velocity commands.
+1) Initialize node and publisher for velocity commands.
 2) Define callback function for the laser scan data, which saves the distances to the walls on the left, front, and right in a dictionary, and calls the function 'take_action'
 3) Define function 'take_action' which decides which action the robot should take based on the distances to the walls in the dictionary, and calls the corresponding behavior function (e.g. 'find_wall', 'turn_left', 'follow_the_wall')
 4) Define behavior functions (e.g. 'find_wall', 'turn_left', 'follow_the_wall') which return velocity commands for the robot to execute.
