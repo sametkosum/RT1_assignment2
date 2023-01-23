@@ -14,16 +14,15 @@ The purpose of this assignment is to construct a ROS package for a robot simulat
 
 Installing
 --------
-Initially,it is necessary to install the xterm libray before running the program. Open a terminal window and run the following command to install the xterm package, this library helps us to print outputs of the nodes in a new terminal window :
+Initially,it is imperative to install the xterm library prior to executing the program. Open a terminal window and execute the following command to install the xterm package. This library aids us in printing outputs of the nodes in a new terminal window::
 
     	sudo apt-get install xterm -y
 
-Then, navigate to your ROS workspace 'src' folder and clone this repository using the following command:
-
+Subsequently, go to your ROS workspace 'src' folder and duplicate this repository using the following command:
 
     	git clone https://github.com/sametkosum/RT1_assignment2
     
-When the repository has been cloned, navigate to the work space drectory and run the following command to build the package:
+When the repository has been duplicated, proceed to the work space directory and execute the following command to construct the package:
 
 
     	catkin_make
@@ -34,7 +33,7 @@ First of all, we need to run the ROS master in a separete terminal:
 
     	roscore
             
-The RT1_assignment2.launch file for the assignment can be found in the "launch" folder within the "assignment_2_2022" directory. To start the simulation, use the following command:
+The RT1_assignment2.launch file for the assignment can be located in the "launch" folder within the "assignment_2_2022" directory. To initiate the simulation, utilize the following command:
 
 
     	roslaunch assignment_2_2022 RT1_assignment2.launch
