@@ -14,7 +14,7 @@ The purpose of this assignment is to construct a ROS package for a robot simulat
 
 Installing
 --------
-Initially,it is required to install the xterm libray before running the program. Open a terminal window and run the following command to install the xterm package, this library helps us to print outputs of the nodes in a new terminal window :
+Initially,it is necessary to install the xterm libray before running the program. Open a terminal window and run the following command to install the xterm package, this library helps us to print outputs of the nodes in a new terminal window :
 
     	sudo apt-get install xterm -y
 
