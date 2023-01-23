@@ -257,7 +257,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-### 3) OUTPUT NODEp.py ###
+### 3) OUTPUT.py ###
 This code is a Python script that uses the ROS (Robot Operating System) framework to subscribe to the '/posxy_velxy' topic, which contains information about the robot's position and velocity, and to print the distance and speed information of the robot with a specific frequency.
 
 The script does the following:
