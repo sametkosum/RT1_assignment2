@@ -21,7 +21,7 @@ Initially,it is required to install the xterm libray before running the program.
 Then, navigate to your ROS workspace 'src' folder and clone this repository using the following command:
 
 
-    	git clone <link of the repository>
+    	git clone <[link of the repository](https://github.com/sametkosum/RT1_assignment2)>
     
 When the repository has been cloned, navigate to the work space drectory and run the following command to build the package:
 
@@ -32,12 +32,12 @@ Running
 ---------
 First of all, we need to run the ROS master in a separete terminal:
 
-    		roscore
+    	roscore
             
 The RT1_assignment2.launch file for the assignment can be found in the "launch" folder within the "assignment_2_2022" directory. To start the simulation, use the following command:
 
 
-    		roslaunch assignment_2_2022 RT1_assignment2.launch
+    	roslaunch assignment_2_2022 RT1_assignment2.launch
 
 
 ![Gazebo](https://user-images.githubusercontent.com/117012520/214143438-53d0393d-941e-4860-b790-d3391dddcf79.PNG)
