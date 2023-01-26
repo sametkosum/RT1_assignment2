@@ -257,6 +257,29 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+#### How to find the number of goal reached or cancelled ? ####
+
+
+One way to access the service is by using the rqt tool, which is a graphical user interface provided in the Robot Operating System (ROS) for debugging, analyzing and inspecting various aspects of the system. It allows users to easily view and manipulate data streams, such as topics, services, and parameters, as well as perform tasks like logging, plotting, and debugging. Additionally, rqt has a plugin system that enables developers to create custom plugins for specific tasks. With rqt, it's easy to monitor, control and debug the ROS nodes and topics.
+```python
+    rqt
+```
+To reach the Service Caller function in rqt, follow these steps:
+1) Go to the "Plugins" menu
+2) Select "Services"
+3) Click on "Service Caller"
+4) In the Service Caller window, locate the "goal_service"
+5) Click the "Call" button
+6) The response window will display the number of targets reached and cancelled.
+
+Another way start the TARGETSERVICE.py service node, which displays the number of goals achieved and those that have been cancelled, use the following command:
+```python
+	rosservice call /TARGETSERVICE
+```
+
+
+
 ### 3) OUTPUT.py ###
 This code is a Python script that uses the ROS (Robot Operating System) framework to subscribe to the '/posxy_velxy' topic, which contains information about the robot's position and velocity, and to print the distance and speed information of the robot with a specific frequency.
 
